@@ -1,0 +1,15 @@
+li a {
+    color: green;
+}
+/*body {
+    background: white url("img/bg.png") no-repeat center center;
+}*/
+body {
+    background-image:    url(img/bg.png);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;              /* optional, center the image */
+}
